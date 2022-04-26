@@ -1,26 +1,13 @@
-from flitscore.models import * 
+from flitscore.models import *
 
 # needed for registering to developer.salesforce.com
 
-sfdc_register = {"url":obj(objtype="chrome",input="https://developer.salesforce.com")}
-sfdc = {"url":obj(objtype="chrome",input="https://avconglobal-dev-ed.my.salesforce.com/")}
-
-#https://fa-eqng-dev11-saasfademo1.ds-fa.oraclepdemos.com/	Paul.Cook	CHDG&57fa
-
-oca_slow = {
-    "url":obj(objtype="chrome",input="https://fa-eqng-dev11-saasfademo1.ds-fa.oraclepdemos.com/"),
-    "users":
-            {
-                "FinanceAdmin":{"username":"Paul.Cook","name":"Paul.Cook","secret":r"CHDG&57fa"}                
-            }
+saucedemo = {"url": obj(objtype="chrome", input="https://www.saucedemo.com/"),
+             "users":
+             {
+    "standard_user": {"username": "standard_user", "name": "Standard User", "secret": "secret_sauce"},
+    "locked_out_user": {"username": "locked_out_user", "name": "Lockedout User", "secret": "secret_sauce"},
+    "problem_user": {"username": "problem_user", "name": "Problem User", "secret": "secret_sauce"},
+    "performance_glitch_user": {"username": "performance_glitch_user", "name": "Performanceglitch User", "secret": "secret_sauce"},
 }
-
-oca = {
-    "url":obj(objtype="chrome",input="https://fa-eseb-saasfademo1.ds-fa.oraclepdemos.com/"),
-    "users":
-            {
-                "FinanceAdmin":{"username":"Dave.Parker","name":"Dave Parker","secret":r"AH2sf1!7$"}
-                
-            }
 }
-
