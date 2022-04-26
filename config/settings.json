@@ -1,0 +1,46 @@
+{
+    "date-format":"%m/%d/%Y",
+    "datetime-format":"%m/%d/%Y %H:%M:%S",
+    "project-name":"Saucedemo Project",
+    "common-obj-wait-time":30,
+    "maximum-attempts":15,
+    "default-browser":"chrome",
+    "log-level":"info",
+    "run-name":"SaucedemoRun",
+    "suite-name":"Execution Results - Saucedemo Project",
+    "results":
+    {
+        "path":"results/",
+        "screenshots":"screenshots/",
+        "words":"word-results/",
+        "videos":"video-results/",
+        "html":"/",
+        "excels":"excels/",
+        "steps":"steps/",
+        "outputs":"outputs/",
+        "generate":
+        {
+            "words":"yes",
+            "videos":"no",
+            "excels":"yes",
+            "html":"yes"
+        }
+
+    },
+    "data":
+    {
+        "path":"data/",
+        "test-data":"data/test-data/",
+        "env":"data.env.qa",
+        "scenarios-list-file":"data/scenarios.xlsx",
+        "scenarios-path":"data/scenario-files/"
+    },
+    "iaas":
+    {
+
+    },
+    "alm":
+    {
+
+    }
+}
