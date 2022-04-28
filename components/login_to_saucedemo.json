@@ -1,0 +1,18 @@
+{
+    "steps":
+    [
+
+        {
+            "type":"task","area":"web","action":"set_text",
+            "on":"saucedemo.poms.LogInPOM.username_tb"
+        },
+        {
+            "type":"task","area":"web","action":"set_text",
+            "on":"saucedemo.poms.common.LogInPOM.password_tb"
+        },
+        {
+            "type":"task","area":"web","action":"click",
+            "on":"saucedemo.poms.common.LogInPOM.signin_btn"
+        }
+    ]
+}

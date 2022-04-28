@@ -1,0 +1,29 @@
+{
+    "steps":
+    [
+        {
+            "type":"task","area":"web","action":"click",
+            "on":"saucedemo.poms.common.CheckoutPOM.checkout_btn"            
+        },
+        {
+            "type":"task","area":"web","action":"set_text",
+            "on":"saucedemo.poms.common.CheckoutPOM.firstname_tb"            
+        },
+        {
+            "type":"task","area":"web","action":"set_text",
+            "on":"saucedemo.poms.common.CheckoutPOM.lastname_tb"            
+        },
+        {
+            "type":"task","area":"web","action":"set_text",
+            "on":"saucedemo.poms.common.CheckoutPOM.zip_tb"            
+        },
+        {
+            "type":"task","area":"web","action":"click",
+            "on":"saucedemo.poms.common.CheckoutPOM.continue_btn"
+        },
+        {
+            "type":"task","area":"web","action":"click",
+            "on":"saucedemo.poms.common.CheckoutPOM.finish_btn"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "steps":
+    [
+
+        {
+            "type":"task","area":"web","action":"click",
+            "on":"saucedemo.poms.common.ProductsPOM.add_to_cart_btn"
+        },
+        {
+            "type":"task","area":"web","action":"click",
+            "on":"saucedemo.poms.common.ProductsPOM.shopping_cart_icon"
+        }
+    ]
+}
